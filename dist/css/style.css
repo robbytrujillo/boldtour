@@ -35,6 +35,11 @@
   background-color: var(--color-ungu);
 } */
 
+.container {
+  width: 80%;
+  margin-inline: auto;
+}
+
 .header {
   width: 100%;
   background-image:
@@ -45,4 +50,9 @@
   background-repeat: no-repeat;
   padding-bottom: 50px;
   height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  padding: 25px 0 25px 0;
 }
