@@ -82,8 +82,13 @@
 
 .navbar .about-button {
   padding: 10px 20px 10px 20px;
-  border-radius: 30px;
   background-color: var(--color-black-4);
   border: none;
   color: var(--color-white-10);
+  cursor: pointer;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
