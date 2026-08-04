@@ -55,4 +55,35 @@
 .navbar {
   width: 100%;
   padding: 25px 0 25px 0;
+  display: flex; // agar jadi satu baris
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo i {
+  font-size: 34px;
+  color: var(--color-white-10);
+}
+
+.navbar .menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar .menu li {
+  list-style-type: none;
+}
+
+.navbar .menu li a {
+  text-decoration: none;
+  color: var(--color-white-7);
+}
+
+.navbar .about-button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  background-color: var(--color-black-4);
+  border: none;
+  color: var(--color-white-10);
 }
