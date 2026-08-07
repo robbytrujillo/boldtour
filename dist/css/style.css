@@ -40,6 +40,7 @@
   margin-inline: auto;
 }
 
+/* START HEADER */
 .header {
   width: 100%;
   background-image:
@@ -55,7 +56,7 @@
 .navbar {
   width: 100%;
   padding: 25px 0 25px 0;
-  display: flex; // agar jadi satu baris
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -80,8 +81,12 @@
   color: var(--color-white-7);
 }
 
+/* .navbar .menu li a i {
+  display: none;
+} */
+
 .navbar .menu li a:hover {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--color-white-10);
 }
 
@@ -105,19 +110,49 @@
   padding: 0;
   margin-left: 20px;
   height: 24px;
+  display: none;
 }
 
 .hamburger .hamburger-box {
   width: 30px;
 }
 
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 40px;
-    height: 4px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 4px;
-    position: absolute;
-    transition-property: transform;
-    transition-duration: 0.15s;
-    transition-timing-function: ease;
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  width: 40px;
+  height: 4px;
+  background-color: var(--color-white-10);
 }
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+  background-color: var(--color-white-10);
+}
+
+/* Tampilkan hamburger hanya pada layar HP / tablet */
+@media screen and (max-width: 992px) {
+  .navbar .menu {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    flex-direction: column;
+  }
+
+  /* .navbar .menu {
+    display: none; 
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: inline-block;
+  }
+
+  .navbar .menu {
+    display: none; /* Sembunyikan menu navigasi desktop pada layar HP */
+  }
+}
+/* END HEADER */
