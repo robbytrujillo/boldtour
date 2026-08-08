@@ -1,3 +1,3 @@
-## Introduction Web Travel Indonesia
+## Introduction Web Travel Indonesia Bold Tour
 
-<h2>Bold Tour</h2>
+<h2>BoldTour</h2>
