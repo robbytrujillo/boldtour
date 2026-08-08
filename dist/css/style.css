@@ -90,6 +90,10 @@
   color: var(--color-white-10);
 }
 
+.navbar .menu li a i {
+  display: none;
+}
+
 .navbar .about-button {
   padding: 10px 20px 10px 20px;
   background-color: var(--color-black-4);
@@ -136,7 +140,7 @@
   .navbar .menu {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: -100%;
     transform: translate(0, -50%);
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
@@ -147,6 +151,15 @@
     align-items: center;
     gap: 0;
     padding-inline: 30px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+  }
+
+  .navbar .menu.menu-active {
+    left: 0;
   }
 
   .navbar .menu li {
@@ -158,6 +171,17 @@
   .navbar .menu li a {
     color: var(--color-black-10);
     font-weight: bold;
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar .menu li a:hover {
+    color: var(--color-ungu);
+  }
+
+  .navbar .menu li a i {
+    display: block;
+    font-size: 24px;
   }
 
   .navbar .about-button {
