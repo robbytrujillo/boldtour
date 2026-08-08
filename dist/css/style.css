@@ -50,7 +50,7 @@
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 50px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .navbar {
@@ -133,6 +133,52 @@
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
   background-color: var(--color-white-10);
+}
+
+.hero {
+  margin-top: 150px;
+}
+
+.hero h1 {
+  color: var(--color-white-10);
+  line-height: 1:
+}
+
+.hero h1 span#t1 {
+  font-size: 9vw;
+  font-weight: bold;
+}
+
+.hero h1 span#t2 {
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.hero .hero-jargon {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.hero .hero-jargon div {
+  width: 300px;
+}
+
+.hero .hero-jargon div:nth-child(1) {
+  border-right: 1px solid var(--color-white-2);
+}
+
+.hero .hero-jargon div p {
+  color: var(--color-white-4);
+  line-height: 2;
+  font-size: 14px;
+}
+
+.hero .hero-jargon div p span {
+  font-weight: bold;
+  color: var(--color-white-10);
 }
 
 /* Tampilkan hamburger hanya pada layar HP / tablet */
