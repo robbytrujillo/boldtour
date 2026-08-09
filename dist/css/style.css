@@ -237,6 +237,10 @@
   .hamburger {
     display: block;
   }
+
+  .hero .hero-jargon div:nth-child(1) {
+    border: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
