@@ -241,15 +241,35 @@
   .hero .hero-jargon div:nth-child(1) {
     border: none;
   }
+
+  .hero .hero-jargon div p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .hamburger {
+  .hero h1 {
+    line-hight: 1.2;
+  }
+
+  .hero h1 span#t1 {
+    font-size: 10vw;
+  }
+  
+  .hero h1 span#t2 {
+    font-size: 7vw;
+  }
+
+  .hero .hero-jargon {
+    margin-top: 120px;
+  }
+
+  /* .hamburger {
     display: inline-block;
   }
 
   .navbar .menu {
-    display: none; /* Sembunyikan menu navigasi desktop pada layar HP */
-  }
+    display: none; 
+  } */
 }
 /* END HEADER */
