@@ -283,4 +283,51 @@
 .best-destination-box .box:nth-child(1) {
   margin-bottom: 50px;
 }
+
+.best-destination-box .box:nth-child(1) h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.best-destination-box .box:nth-child(1) p {
+  line-height: 2;
+}
+
+.best-destination-box .box:nth-child(2) {
+  position: relative;
+  height: 100%;
+  background: #000;
+        font-family:
+          Helvetica Neue,
+          Helvetica,
+          Arial,
+          sans-serif;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+}
+
+/* ? Swiper Start */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ? Swiper End */
 /* BEST DESTINATION END */
