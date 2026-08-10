@@ -273,3 +273,14 @@
   } */
 }
 /* END HEADER */
+
+/* BEST DESTINATION START */
+.best-destination {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.best-destination-box .box:nth-child(1) {
+  margin-bottom: 50px;
+}
+/* BEST DESTINATION END */
