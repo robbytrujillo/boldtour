@@ -326,6 +326,10 @@
   cursor: grab;
 }
 
+.swiper-slide:active {
+  cursor: grabbing;
+}
+
 .swiper-slide img {
   display: block;
   width: 100%;
