@@ -334,6 +334,7 @@
 
 .swiper-slide:hover .loc {
   transform: scaleY(1);
+  opacity: 1;
 }
 
 .swiper-slide .loc {
@@ -348,6 +349,7 @@
   transform: scaleY(0);
   transform-origin: bottom;
   transition: all .2s ease;
+  opacity: 0;
 }
 
 .swiper-slide .loc p {
@@ -368,4 +370,10 @@
   border-radius: 20px;
 }
 /* ? Swiper End */
+
+@media screen and (max-width: 475px) {
+  .best-destination-box .box:nth-child(1) h1 {
+    font-size: 35px;
+  }
+}
 /* BEST DESTINATION END */
