@@ -332,8 +332,32 @@
   cursor: grabbing;
 }
 
+.swiper-slide:hover .loc {
+  transform: scaleY(1);
+}
+
 .swiper-slide .loc {
   position: absolute;
+  bottom: 0;
+  background-color: var(--color-black-7);
+  width: 100%;
+  padding: 20px 0 20px 0;
+  color: var(--color-white-10);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: all .2s ease;
+}
+
+.swiper-slide .loc p {
+  color: var(--color-white-7);
+  margin-top: 10px;
+}
+
+.swiper-slide .loc p i {
+  color: var(--color-white-10);
+  margin-right: 5px;
 }
 
 .swiper-slide img {
