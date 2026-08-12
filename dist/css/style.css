@@ -370,6 +370,7 @@
   border-radius: 20px;
 }
 
+/* swiper pagination */
 .swiper-pagination {
   color: var(--color-black-7);
 }
