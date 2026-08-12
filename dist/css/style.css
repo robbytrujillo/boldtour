@@ -369,6 +369,10 @@
   object-fit: cover;
   border-radius: 20px;
 }
+
+.swiper-pagination {
+  color: var(--color-black-7);
+}
 /* ? Swiper End */
 
 @media screen and (max-width: 475px) {
