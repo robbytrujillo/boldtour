@@ -381,4 +381,14 @@
     font-size: 35px;
   }
 }
+
+/* ? Custom Scrollbar Start */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-black-4)
+}
+/* ? Custom Scrollbar End */
 /* BEST DESTINATION END */
