@@ -394,5 +394,14 @@
 /* BEST DESTINATION END */
 
 /* SERVICES START */
+.services {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
+.services .box:nth-child(1) {
+  margin-bottom: 70px;
+}
 /* SERVICES END */
