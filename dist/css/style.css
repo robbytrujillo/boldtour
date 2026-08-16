@@ -427,4 +427,10 @@
   height: 200px;
   text-align: center;
 }
+
+.services-box .box:nth-child(2) .service span {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--color-ungu);
+}
 /* SERVICES END */
