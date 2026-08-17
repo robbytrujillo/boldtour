@@ -433,4 +433,10 @@
   font-weight: bold;
   color: var(--color-ungu);
 }
+
+.services-box .box:nth-child(2) .service p {
+  text-align: left;
+  margin-top: 20px;
+  color: var(--color-black-6);
+}
 /* SERVICES END */
