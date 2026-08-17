@@ -426,7 +426,7 @@
   width: 300px;
   height: 200px;
   text-align: center;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .services-box .box:nth-child(2) .service span {
@@ -440,5 +440,10 @@
   margin-top: 20px;
   color: var(--color-black-6);
   line-height: 2;
+}
+
+.services-box .box:nth-child(2) .service:nth-child(1),
+.services-box .box:nth-child(2) .service:nth-child(3) {
+  align-self: flex-end; 
 }
 /* SERVICES END */
