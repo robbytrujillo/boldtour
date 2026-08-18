@@ -446,4 +446,21 @@
 .services-box .box:nth-child(2) .service:nth-child(3) {
   align-self: flex-end; 
 }
+
+@media screen and (max-width: 768px) {
+  .services-box .box:nth-child(2) {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .services-box .box:nth-child(1) h1 {
+    font-size: 35px;
+  }
+
+  .services-box .box:nth-child(2) {
+    align-items: center;
+  }
+}
 /* SERVICES END */
