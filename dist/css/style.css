@@ -492,4 +492,9 @@
 .gallery-box .box:nth-child(1) p {
   line-height: 2;
 }
+
+.gallery-box .box:nth-child(2) {
+  display: grid;
+  grid-template-columns:  repeat(3, 1fr);
+}
 /* Gallery End */
