@@ -473,6 +473,23 @@
     text-align: center;
     font-size: 14px;
   }
-
 }
 /* SERVICES END */
+
+/* Gallery Start */
+.gallery {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.gallery-box .box:nth-child(1) h1 {
+  font-size: 40px;
+  margin-bootom: 10px;
+}
+
+.gallery-box .box:nth-child(1) p {
+  line-height: 2;
+}
+/* Gallery End */
